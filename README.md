@@ -1,7 +1,7 @@
 # **SAIVT Building Monitoring Database**
 
 ## **Overview**
-The SAIVT-BuildingMonitoring database contains footage from 12 cameras capturing a single work day at a busy university campus building. A portion of the database has been annotated for crowd counting and pedestrian throughput estimation, and is freely available for download. Contact [Dr Simon Denman](s.denman@qut.edu.au) for more information.
+The SAIVT-BuildingMonitoring database contains footage from 12 cameras capturing a single work day at a busy university campus building. A portion of the database has been annotated for crowd counting and pedestrian throughput estimation, and is freely available for download. Contact Dr Simon Denman (s dot denman at qut dot edu dot au) for more information
 
 ## **Licensing** 
 The SAIVT-BuildingMonitoring database is © 2015 QUT, and is licensed under the [Creative Commons Attribution-ShareAlike 3.0 Australia License] (http://creativecommons.org/licenses/by-sa/3.0/).
@@ -21,10 +21,10 @@ In addition to citing our paper, we kindly request that the following text be in
 > 'We would like to thank the SAIVT Research Labs at Queensland University of Technology (QUT) for freely supplying us with the SAIVT-BuildingMonitoring database for our research'.
 
 ## **Installing the SAIVT-BuildingMonitoring Database**
-Download and unzip the following archives
-[Annotated Data (8 GB)](https://Q0102-RO:Vieyae3G@q0102-webdav.qcloud.qcif.edu.au/SAIVT-BuildingMonitoring-AnnotatedData.tar.gz)
-[Full Sequences (29 GB)](https://Q0102-RO:Vieyae3G@q0102-webdav.qcloud.qcif.edu.au/SAIVT-BuildingMonitoring-FullSequences.tar.gz)
-[Pre-processed Motion Segmentation (47 GB)](https://Q0102-RO:Vieyae3G@q0102-webdav.qcloud.qcif.edu.au/SAIVT-BuildingMonitoring-MotionSegmentation.tar.gz]
+Download and unzip the following archives:
+- [Annotated Data (8 GB)](https://Q0102-RO:Vieyae3G@q0102-webdav.qcloud.qcif.edu.au/SAIVT-BuildingMonitoring-AnnotatedData.tar.gz)
+- [Full Sequences (29 GB)](https://Q0102-RO:Vieyae3G@q0102-webdav.qcloud.qcif.edu.au/SAIVT-BuildingMonitoring-FullSequences.tar.gz)
+- [Pre-processed Motion Segmentation (47 GB)](https://Q0102-RO:Vieyae3G@q0102-webdav.qcloud.qcif.edu.au/SAIVT-BuildingMonitoring-MotionSegmentation.tar.gz]
 
 At this point, you should have the following data structure and the SAIVT-BuildingMonitoring database is installed:
 ```
