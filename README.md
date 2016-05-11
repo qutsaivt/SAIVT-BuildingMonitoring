@@ -24,7 +24,7 @@ In addition to citing our paper, we kindly request that the following text be in
 Download and unzip the following archives:
 - [Annotated Data (8 GB)](https://Q0102-RO:Vieyae3G@q0102-webdav.qcloud.qcif.edu.au/SAIVT-BuildingMonitoring-AnnotatedData.tar.gz)
 - [Full Sequences (29 GB)](https://Q0102-RO:Vieyae3G@q0102-webdav.qcloud.qcif.edu.au/SAIVT-BuildingMonitoring-FullSequences.tar.gz)
-- [Pre-processed Motion Segmentation (47 GB)](https://Q0102-RO:Vieyae3G@q0102-webdav.qcloud.qcif.edu.au/SAIVT-BuildingMonitoring-MotionSegmentation.tar.gz]
+- [Pre-processed Motion Segmentation (47 GB)](https://Q0102-RO:Vieyae3G@q0102-webdav.qcloud.qcif.edu.au/SAIVT-BuildingMonitoring-MotionSegmentation.tar.gz)
 
 At this point, you should have the following data structure and the SAIVT-BuildingMonitoring database is installed:
 ```
