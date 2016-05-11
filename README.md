@@ -89,14 +89,14 @@ The following files exist for crowd counting cameras:
 - "GroundTruth.xml", which contains the ground truth in the following format: 
 ```
 <qutcrowd-count-gt interval-scale="1800"> 
-<frame id="0"> 
-<ped x="175" y="112" /> 
-</frame> 
-<frame id="1"> 
-<ped x="149" y="97" /> 
-<ped x="187" y="97" /> 
-</frame> 
-.... 
+  <frame id="0"> 
+    <ped x="175" y="112" /> 
+  </frame> 
+  <frame id="1"> 
+    <ped x="149" y="97" /> 
+    <ped x="187" y="97" /> 
+  </frame> 
+  .... 
 <qutcrowd-count-gt> 
 ```
 The file contains a list of annotated frames, and the location of the approximate centre of mass of any people within the frame. The "interval-scale" attribute indicates the distance between the annotated frames in the original video.
@@ -104,14 +104,14 @@ The file contains a list of annotated frames, and the location of the approximat
 - "ROI.xml", which defines the region of interest as follows:
 ```
 <ROI num-points="8" image-width="768" image-height="576"> 
-<point x="0" y="152" /< 
-<point x="239" y="117" /> 
-<point x="341" y="107" /> 
-<point x="428" y="110" /> 
-<point x="519" y="116" /> 
-<point x="763" y="159" /> 
-<point x="760" y="575" /> 
-<point x="0" y="575" /> 
+  <point x="0" y="152" /< 
+  <point x="239" y="117" /> 
+  <point x="341" y="107" /> 
+  <point x="428" y="110" /> 
+  <point x="519" y="116" /> 
+  <point x="763" y="159" /> 
+  <point x="760" y="575" /> 
+  <point x="0" y="575" /> 
 </ROI> 
 ```
 This defines a polygon within the image that is used for crowd counting. Only people within this region are annotated.
@@ -120,19 +120,19 @@ For cameras that have been annotated with a virtual gate, the following addition
 - VG-GroundTruth.xml, which contains ground truth in the following format: 
 ```
 <qutcrowd-flow-gt both-directions="0"> 
-<ROI num-points="4" image-width="856" image-height="480"> 
-<point x="622" y="91" /> 
-<point x="837" y="242" /> 
-<point x="837" y="282" /> 
-<point x="622" y="131" /> 
-</ROI> 
-<doi>0<doi> 
-<ped frame="1889" x="662" y="144" direction="1" /> 
-<ped frame="3615" x="667" y="137" direction="0" /> 
-<ped frame="4851" x="770" y="212" direction="1" /> 
-<ped frame="5153" x="659" y="129" direction="1" /> 
-<ped frame="6317" x="655" y="147" direction="1" /> 
-... 
+  <ROI num-points="4" image-width="856" image-height="480"> 
+    <point x="622" y="91" /> 
+    <point x="837" y="242" /> 
+    <point x="837" y="282" /> 
+    <point x="622" y="131" /> 
+  </ROI> 
+  <doi>0<doi> 
+  <ped frame="1889" x="662" y="144" direction="1" /> 
+  <ped frame="3615" x="667" y="137" direction="0" /> 
+  <ped frame="4851" x="770" y="212" direction="1" /> 
+  <ped frame="5153" x="659" y="129" direction="1" /> 
+  <ped frame="6317" x="655" y="147" direction="1" /> 
+  ... 
 </qutcrowd-flow-gt> 
 ```
 The ROI is repeated within the ground truth, and a direction of interest (the ```<doi>``` tag) is also included, which indicates the primary direction for the gait (i.e. the direction that denotes a positive count. Each pedestrian crossing is represented by a ```<ped>``` tag, which contains the approximate frame the crossing occurred in (when the centre of mass was at the centre of the gait region), the x and y location of the centre of mass of the person during the crossing, and the direction (0 being the primary direction, 1 being the secondary).
