@@ -30,49 +30,49 @@ At this point, you should have the following data structure and the SAIVT-Buildi
 ```
 SAIVT-BuildingMonitoring 
 +-- AnnotatedData 
-+-- P_Lev_4_Entry_Way_ip_107 
-+-- Frames 
-+-- Entry_ip107_00000.png 
-+-- Entry_ip107_00001.png 
-+-- ... 
-+-- GroundTruth.xml 
-+-- P_Lev_4_Entry_Way_ip_107-20140730-090000.avi 
-+-- perspectivemap.xml 
-+-- ROI.xml 
+  +-- P_Lev_4_Entry_Way_ip_107 
+    +-- Frames 
+      +-- Entry_ip107_00000.png 
+      +-- Entry_ip107_00001.png 
+      +-- ... 
+    +-- GroundTruth.xml 
+    +-- P_Lev_4_Entry_Way_ip_107-20140730-090000.avi 
+    +-- perspectivemap.xml 
+    +-- ROI.xml 
 
-+-- P_Lev_4_external_419_ip_52 
-+-- ... 
+  +-- P_Lev_4_external_419_ip_52 
+    +-- ... 
 
-+-- P_Lev_4_External_Lift_foyer_ip_70 
-+-- Frames 
-+-- Entry_ip107_00000.png 
-+-- Entry_ip107_00001.png 
-+-- ... 
-+-- GroundTruth.xml 
-+-- P_Lev_4_External_Lift_foyer_ip_70-20140730-090000.avi 
-+-- perspectivemap.xml 
-+-- ROI.xml 
-+-- VG-GroundTruth.xml 
-+-- VG-ROI.xml 
+  +-- P_Lev_4_External_Lift_foyer_ip_70 
+    +-- Frames 
+      +-- Entry_ip107_00000.png 
+      +-- Entry_ip107_00001.png 
+      +-- ... 
+    +-- GroundTruth.xml 
+    +-- P_Lev_4_External_Lift_foyer_ip_70-20140730-090000.avi 
+    +-- perspectivemap.xml 
+    +-- ROI.xml 
+    +-- VG-GroundTruth.xml 
+    +-- VG-ROI.xml 
 
-+-- ... 
+  +-- ... 
 
 +-- Calibration 
-+-- Lev4Entry_ip107.xml 
-+-- Lev4Ext_ip51.xml 
-+-- ... 
+  +-- Lev4Entry_ip107.xml 
+  +-- Lev4Ext_ip51.xml 
+  +-- ... 
 
 +-- FullSequences 
-+-- P_Lev_4_Entry_Way_ip_107-20140730-090000.avi 
-+-- P_Lev_4_external_419_ip_52-20140730-090000.avi 
-+-- ... 
+  +-- P_Lev_4_Entry_Way_ip_107-20140730-090000.avi 
+  +-- P_Lev_4_external_419_ip_52-20140730-090000.avi 
+  +-- ... 
 
 +-- MotionSegmentation 
-+-- Lev4Entry_ip107.avi 
-+-- Lev4Entry_ip107-Full.avi 
-+-- Lev4Ext_ip51.avi 
-+-- Lev4Ext_ip51-Full.avi 
-+-- ... 
+  +-- Lev4Entry_ip107.avi 
+  +-- Lev4Entry_ip107-Full.avi 
+  +-- Lev4Ext_ip51.avi 
+  +-- Lev4Ext_ip51-Full.avi 
+  +-- ... 
 
 +-- Denman 2015 - Large scale monitoring of crowds and building utilisation.pdf 
 +-- LICENSE.txt 
